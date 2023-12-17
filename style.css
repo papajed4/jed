@@ -1,0 +1,264 @@
+.navbar {
+    background-color: rgb(74, 98, 111);
+    position: relative;
+    width: 100%;
+}
+
+header a img {
+    width: 70px;
+}
+
+nav {
+    text-align: right;
+    margin-top: -60px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+}
+
+nav a img {
+    height: 30px;
+    padding: 8px;
+}
+
+.backimg {
+    width: 100%;
+}
+
+.aboutme {
+    width: 100%;
+    /* background-image: ; */
+}
+
+
+.aboutmyself {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 98, 111);
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+.aboutmyself h4 {
+    font-size: 60px;
+}
+
+.aboutmyself ul li {
+    display: inline-block;
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.service {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(74, 98, 111);
+    text-align: center;
+    margin-top: -4px;
+}
+
+.managersinfo {
+    border: dashed rgb(203, 193, 182) 2px;
+    text-align: left;
+    background-color: rgb(203, 193, 182);
+    margin-top: -4px;
+}
+
+.managersinfo img {
+    height: 500px;
+    border-radius: 80px;
+}
+
+.managersinfo ul li {
+    display: inline-block;
+    width: 500px;
+    color: rgb(74, 98, 111);
+}
+
+li.managersabout {
+    /* border: 2px dashed black; */
+    position: absolute;
+    padding-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.employeeinfo {
+    border: dashed rgb(203, 193, 182) 2px;
+    text-align: right;
+    background-color: rgb(203, 193, 182);
+    margin-top: -4px;
+}
+
+.employeeinfo img {
+    height: 500px;
+    border-radius: 80px;
+    padding-right: 40px;
+}
+
+.employeeinfo ul li {
+    display: inline-block;
+    width: 500px;
+}
+
+li.employeeabout {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: -540px;
+    margin-top: 150px;
+    color: rgb(74, 98, 111);
+
+}
+
+.copyright {
+    text-align: center;
+    background-color: rgba(238, 234, 229, 0.634);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* responsive */
+
+@media(max-width: 884px) {
+    .aboutmyself {
+        margin-left: 350px;
+        margin-top: 120px;
+    }
+
+    .aboutmyself h4 {
+        font-size: 40px;
+    }
+
+    .aboutmyself ul li {
+        padding-left: 60px;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: -30px;
+
+    }
+}
+
+@media(max-width: 450px) {
+    .aboutmyself {
+        margin-left: 170px;
+        margin-top: 90px;
+    }
+
+    .aboutmyself h4 {
+        font-size: 15px;
+    }
+
+    .aboutmyself ul li {
+        padding-left: 15px;
+        font-size: 10px;
+        font-weight: bolder;
+        margin-left: -11px;
+
+    }
+}
+
+@media(max-width:884px) {
+    .managersinfo img {
+        height: 200px;
+        border-radius: 40px;
+    }
+
+    .managersinfo ul li {
+        display: inline-block;
+        width: 350px;
+    }
+
+    li.managersabout {
+        /* border: 2px dashed black; */
+        position: absolute;
+        padding-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:450px) {
+    .managersinfo img {
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .managersinfo ul li {
+        display: inline-block;
+        width: 150px;
+    }
+
+    li.managersabout {
+        /* border: 2px dashed black; */
+        position: absolute;
+        padding-top: 3px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:884px) {
+    .employeeinfo {
+        margin-top: -4px;
+    }
+
+    .employeeinfo img {
+        height: 250px;
+        border-radius: 25px;
+        padding-right: 40px;
+    }
+
+    .employeeinfo ul li {
+        width: 400px;
+    }
+
+    li.employeeabout {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: -300px;
+        margin-top: 40px;
+
+
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+}
+
+@media(max-width:450px) {
+    .employeeinfo {
+        margin-top: -4px;
+    }
+
+    .employeeinfo img {
+        height: 170px;
+        border-radius: 25px;
+        padding-right: 10px;
+    }
+
+    .employeeinfo ul li {
+        width: 200px;
+    }
+
+    li.employeeabout {
+        font-size: 11px;
+        padding-top: 10px;
+        margin-left: -140px;
+        margin-top: 10px;
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+}
